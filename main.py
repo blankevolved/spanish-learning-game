@@ -1,6 +1,7 @@
 import random
 import os
 import json
+from glob import glob
 current_set = 'basic_set'
 score = 0
 top_scores = []
@@ -90,6 +91,10 @@ def start():
             input()
         elif inp == '3':
             clear()
+            print('All .py files in the current directory:')
+            for i in glob("*.py"):
+                print(i)
+            print()
             name = input('Set name: (file ending in .py) ')
             global current_set
             global set
