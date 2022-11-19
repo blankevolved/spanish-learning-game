@@ -7,12 +7,15 @@ You use this tool to practice spanish words you define in a set
 
 Create a file ending with .py [ (name).py ].
 
+There is 2 ways you can make a set
+
+## Way 1
 Create a dict variable in the file you just created:
-```
+```py
 set = {}
 ```
 Add your words like this:
-```
+```py
 set = {
     0:{
         'en':(word),
@@ -21,7 +24,7 @@ set = {
 }
 ```
 For every new word increse the number, starting from 0:
-```
+```py
 set = {
     0:{
         'en':(word),
@@ -32,6 +35,33 @@ set = {
         'sp':(another_word)
     }
 }
+```
+## Way 2
+Create a list variable in the file you just created:
+```py
+set = []
+```
+Add your words like this:
+```py
+set = [
+    {
+        'en':(word),
+        'sp':(word)
+    }
+]
+```
+For every new word add a dict to the list
+```py
+set = [
+    {
+        'en':(word),
+        'sp':(word)
+    },
+    {
+        'en':(another_word),
+        'sp':(another_word)
+    }
+]
 ```
 ## Import a Set
 Run the main.py file, you will see a screen similar to this:
