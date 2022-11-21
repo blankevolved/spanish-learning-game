@@ -103,6 +103,7 @@ def start():
                 print('Invalid Option')
 
         elif inp == '2':
+            clear()
             ## list the top scores
             list_top_scores()
             input()
