@@ -1,13 +1,13 @@
 # Spanish Learning Game (SLG)
 ## Use Case:
 
-You use this tool to practice spanish words you define in a set
+You use this tool to practice Spanish words you define in a set
 
 ## Create a Set:
 
 Create a file ending with .py [ (name).py ].
 
-There is 2 ways you can make a set
+There are 2 ways you can make a set
 
 ## Way 1
 Create a dict variable in the file you just created:
@@ -23,7 +23,7 @@ set = {
     }
 }
 ```
-For every new word increse the number, starting from 0:
+For every new word increase the number, starting from 0:
 ```py
 set = {
     0:{
@@ -71,11 +71,11 @@ Run the main.py file, you will see a screen similar to this:
 3. Pick a new set
 >>> 
 ```
-Select 'Pick a new set', you should now see a screen like this:
+Select 'Pick a new set', and you should now see a screen like this:
 ```
 Set name: (file ending in .py) 
 ```
-Type in the file ending in .py's name, you will now be taken back to the start screen. 
+Type in the file ending in .py's name, and you will be returned to the start screen. 
 
 You can start the game and the new set will be used. 
 
